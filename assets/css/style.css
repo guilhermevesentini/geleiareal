@@ -1,0 +1,59 @@
+
+/*    Estilização Global     */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: none;
+    
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: sans-serif;
+    background-color: #fff;
+}
+.btn:hover {
+    background-color: #FFE5A0;
+    transition: 2s;
+    color: black;
+    box-shadow: 0 3px 10px #010101;
+    cursor: pointer; 
+}
+.fonte__cursiva {
+    font-family: 'Great Vibes', cursive;
+}
+.divider {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.scrollDown {
+    margin: 1rem 0;
+    font-size: 1rem;
+    text-align: center;
+    cursor: pointer;
+}
+.fas, .far {
+    margin-left: 1rem;
+}
+.bar {
+    display: block;
+    width: 25px;
+    height: 2px;
+    background-color: #000;
+    margin: 5px 0;
+}
+.hero__conteudo__titulo {
+    font-size: 40px;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    letter-spacing: .3rem;
+    text-align: center;
+}
+
+

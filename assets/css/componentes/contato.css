@@ -1,0 +1,44 @@
+
+@media (min-width: 0px) {
+    .contato {
+        padding: 1.5rem;
+    }
+    .contato h1{
+        font-size: 1.5rem;
+        text-align: center;
+        margin: 1.5rem;
+    }
+    label {
+        padding: 1rem .5rem;
+        text-align: left;
+        float: left;
+        
+    }
+    input {
+        width: 100%;
+        border: 1px solid #A66C60;
+        padding: 1rem .8rem;
+        text-align: left;
+        margin-bottom: 1rem;
+        font-size: .8rem;
+    }
+    textarea {
+        width: 100%;
+        border: 1px solid #A66C60;
+        padding: 1rem .8rem;
+        font-size: .8rem;
+    }
+    .btn__contato {
+        width: 100%;
+        margin-top: 1rem;
+        padding: 1rem 0;
+        background: #A66C60;
+        color: white;
+        font-size: 1.2rem;
+    }
+    .btn__contato:hover {
+        background: khaki;
+        color: black;
+        transition: 2s;
+    }
+}

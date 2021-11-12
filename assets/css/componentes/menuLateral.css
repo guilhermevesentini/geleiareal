@@ -1,0 +1,21 @@
+.menu {
+    width: 15%;
+    position: fixed;
+    border: .5px solid #010101;
+    padding: 1rem 1rem;
+    left: 0;
+    display: none;
+}
+.menu > h2{
+    margin: .5rem;
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+.menu_lateral___item {
+    margin: .5rem;
+}
+.menu_lateral___item a {
+    text-decoration: none;
+    color: black;
+}
+

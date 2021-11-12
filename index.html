@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geleia Real Fonte da Vida</title>
+
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="./assets/fontawesome/css/all.css">
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+    </style>
+
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/responsivo.css">
+    <link rel="stylesheet" href="./assets/css/componentes/menuLateral.css">
+    <link rel="stylesheet" href="./assets/css/componentes/whatsapp.css">
+    <link rel="stylesheet" href="./assets/css/componentes/collapse.css">
+  
+
+</head>
+<body>
+<!--Header-->
+    <div class="header__faixa">
+        <h6 class="header__faixa___titulo">Vendas pelo whatsapp</h6>
+        <ul class="redesSociais">
+            <li class="redesSociais__item"><i class="fab fa-facebook"></i></li>
+            <li class="redesSociais__item"><i class="fab fa-instagram"></i></li>
+            <li class="redesSociais__item"><i class="fab fa-whatsapp"></i></li>
+        </ul>
+    </div>
+    <header>        
+        <div class="header__navbar">
+            <div class="container__box">  
+                              
+                <h1 class="header__logo fonte__cursiva">Geleia Real 100% Pura</h1>
+
+                <!--<div class="hamburguer">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>-->
+                
+                <nav class="navbar">
+                    <ul class="navbar__menu">
+                        <li class="navbar__item"><a href="index.html" class="navbar__link">Home</a></li>
+                        <li class="navbar__item"><a href="produtos.html" class="navbar__link">Produto</a></li>
+                        <li class="navbar__item"><a href="contato.html" class="navbar__link">Contato</a></li>
+                    </ul>
+                </nav>
+            </div>            
+        </div>                
+    </header>
+
+<!--Main-->  
+<main>
+    <div class="menu">
+        <h2>Cabeçalho</h2>
+        <div class="menu__leteral">
+            
+            <ul>
+                <li class="menu_lateral___item"><a href="#sobre">Geléia Real 100% Pura!</a></li>
+                <li class="menu_lateral___item"><a href="#beneficios">Benefícios para a sua saúde</a></li>
+                <li class="menu_lateral___item"><a href="#componentes">Principais componentes da Geléia Real</a></li>
+                <li class="menu_lateral___item"><a href="#efeitos">Efeitos clínicos comprovados</a></li>
+                <li class="menu_lateral___item"><a href="#geleiaXmel">Diferença entre a Geléia Real e o Mel?</a></li>
+                <li class="menu_lateral___item"><a href="#composição">Composição da Geléia Real</a></li>
+                <li class="menu_lateral___item"><a href="#efeitosPraticos">Efeitos práticos da Geléia Real</a></li>
+                <li class="menu_lateral___item"><a href="#fortalecimento">Fortalecimento do mesencéfalo e o rejuvenescimento</a></li>
+                <li class="menu_lateral___item"><a href="#preventivo">Preventivo</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="whatsapp">
+        <div class="whatsapp_btn">
+            <a href=""><i class="fab fa-whatsapp"></i></a>
+        </div>
+    </div>
+    <section class="hero container">
+        <div class="jumbotron">
+            <img src="./assets/img/logo pedra branca.PNG" alt="Logo pedra branca">          
+        </div>       
+    </section>
+    
+
+    <!--accordion-->   
+                            
+    <!--<div class="accordion">                    
+        <button type="button" class="accordion__button titulo"></button>
+        <div class="accordion__content">
+            <p>
+                
+            </p>
+        </div>                    
+    </div>-->      
+</main>
+
+<!--Footer-->
+<footer>
+    <div class="container">
+        <div class="footer__box">
+            <div class="footer__item">
+                <h1 class="footer__logo fonte__cursiva">Geleia Real 100% Pura</h1>                   
+            </div>
+
+            <div class="footer__item">
+                <h2>Distribuidor Autorizado</h2>
+                <ul>                        
+                    <li>Pedra branca distribuidora</li>
+                    <li>CNPJ: 13.197.505/0001-30</li>
+                    <li>Fone: (11) 2671 0024</li>
+                    <li>Fone: (11) 99930 4054</li>
+                    <br>
+                    <li>mjcfranchi1@gmail.com.br</li>
+                    <li>pedrabrancadistribuidora1@gmail.com</li>
+                    <li>sas@pedrabrancadistribuidora.com.br</li>
+                </ul>
+            </div>  
+            
+            <div class="footer__item">
+                <h2>Endereço</h2>
+                <ul>                        
+                    <li>Apiário pedra branca Ltda - ME</li>
+                    <li>Entreposto de mel e cera de abelhas</li>
+                    <li>CNPJ: 01.112.594/001-95</li>
+                    <li>Fone: (11) 2625 1968</li>
+                </ul>
+            </div>
+        </div>            
+    </div>
+</footer>
+<script src="./js/hamburguer.js"></script>
+
+<!-- Collapse accordions -->
+<script>
+    document.querySelectorAll('.accordion__button').forEach (button =>{
+        button.addEventListener('click', ()=> {
+            const accordionContent = button.nextElementSibling;
+
+            button.classList.toggle('accordion__button--active');
+
+                if (button.classList.contains('accordion__button--active')) {
+                    accordionContent.style.maxHeight = accordionContent.scrollHeight + '150px'
+
+                } else {
+                    accordionContent.style.maxHeight = 0;
+                }
+        });
+    });
+</script>
+</body>
+</html>
